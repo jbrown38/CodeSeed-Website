@@ -1,0 +1,2 @@
+# internsquad
+intern squad website
