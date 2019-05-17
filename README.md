@@ -1,2 +1,2 @@
-# internsquad
-intern squad website
+# [xyz]
+code name [xyz] website
