@@ -1,10 +1,20 @@
-.demo-layout-transparent {
+/*set background image*/
+.home {
     background: url('/resources/NotreDameAerial.jpg') center / cover;
+  }
+
+.home .mdl-layout__drawer-button{
+    margin: 60px;
 }
 
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button{
-    /* This background is dark, so we set text to white. Use 87% black instead if
-    your background is light. */
-    color: white;
+.home .mdl-layout__header {
+    padding: 50px;
+}
+
+.home a{
+    font-size: 20px;
+}
+
+.home span{
+    padding-left: 10px;
 }
