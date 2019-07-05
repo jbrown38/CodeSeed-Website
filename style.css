@@ -1,28 +1,32 @@
 /*set background image*/
-.home {
+.nav {
     background: url('/resources/NotreDameAerial.jpg') center / cover;
-  }
+}
 
-.home .mdl-layout__drawer-button{
+h1{
+    color: black;
+}
+.nav .mdl-layout__drawer-button{
     margin: 60px;
 }
 
-.home .mdl-layout__header {
-    padding: 50px;
+.nav .mdl-layout__header {
+    padding: 53px;
 }
 
-.home a{
+.nav li a{
     font-size: 20px;
 }
 
-.home span{
+.nav span a{
     padding-left: 10px;
     position: relative;
     display: inline-block;
 }
 
-.home span .Color{
+.nav span a .Color{
     padding-left: 10px;
+    padding-top: 11px;
     display: none;
     position: absolute;
     top: 0;
@@ -30,7 +34,45 @@
     z-index: 99;
 }
 
-.home span:hover .Color{
+.nav span a:hover .Color{
     display: inline;
 }
 
+.nav .container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+.nav ul li {
+    display: inline;
+    text-align: center;
+  }
+  
+.nav a {
+    width: 25%;
+    padding: .75rem 0;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+  }
+
+.nav .two:hover ~ hr {
+    margin-left: 26%;
+  }
+  
+.nav .three:hover ~ hr {
+    margin-left: 53%;
+  }
+  
+.nav .four:hover ~ hr {
+    margin-left: 78%;
+  }
+  
+.nav hr {
+    height: .25rem;
+    width: 25%;
+    margin: 0;
+    background: #63b593;
+    border: none;
+    transition: .3s ease-in-out;
+  }

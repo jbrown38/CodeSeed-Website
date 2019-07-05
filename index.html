@@ -13,50 +13,45 @@
      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
 
-     <!--Google MDL and CSS-->
+     <!--Google MDL-->
      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
      <!--<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-light_green.min.css">-->
      <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-green.min.css">
      <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-     <link rel="stylesheet" type="text/css" href="style.css">
 
      <!--Jquery-->
      <script src="app.js"></script>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
+    <!--Custom CSS-->
+     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 
-  <div class="home mdl-layout mdl-js-layout">
-    <header class="mdl-layout__header mdl-layout__header--transparent">
-      <div class="mdl-layout__header-row">
-        <!-- Title -->
-        <span class="mdl-layout-title">
-          <img src="resources/CodeSeedWhite.svg" alt="CodeSeed">
-          <img src="resources/CodeSeedOriginal.svg" class="Color" alt="CodeSeed">
-        </span>
-        <!-- Add spacer, to align navigation to the right -->
-        <div class="mdl-layout-spacer"></div>
-        <!-- Navigation -->
-        <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="">what we do</a>
-          <a class="mdl-navigation__link" href="">who we are</a>
-          <a class="mdl-navigation__link" href="">how we think</a>
-          <a class="mdl-navigation__link" href="">let's talk</a>
-        </nav>
-      </div>
-    </header>
-    <div class="mdl-layout__drawer">
-      <span class="mdl-layout-title">CodeSeed</span>
+<div class="nav mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--transparent">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title"><a href="#/">
+        <img src="resources/CodeSeedWhite.svg" alt="CodeSeed">
+        <img src="resources/CodeSeedOriginal.svg" class="Color" alt="CodeSeed">
+      </a></span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
       <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="">what we do</a>
-        <a class="mdl-navigation__link" href="">who we are</a>
-        <a class="mdl-navigation__link" href="">how we think</a>
-        <a class="mdl-navigation__link" href="">let's talk</a>
+        <ul>
+          <li class="one"><a href="#/WhatWeDo">what we do</a></li><!--
+        --><li class="two"><a href="#/WhoWeAre">who we are</a></li><!--
+        --><li class="three"><a href="#/HowWeThink">how we think</a></li><!--
+        --><li class="four"><a href="#/LetsTalk">let's talk</a></li>
+          <hr />
+        </ul>
       </nav>
     </div>
-    <main class="mdl-layout__content">
-    </main>
-  </div>
+  </header>
+  <main class="mdl-layout__content">
+  </main>
+</div>
