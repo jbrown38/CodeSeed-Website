@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <title>CodeSeed</title>
-     <meta name="description" content="We're bringing Silicon Valley to South Bend">
+     <meta name="description" content="CodeSeed at the University of Notre Dame is bringing Silicon Valley to South Bend.">
      <link rel="icon" href="resources/TransparentSeedOnly.png" type="image/png" />
+
+
 
     <!--AngularJS-->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
@@ -16,17 +18,19 @@
      <!--Google MDL-->
      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-     <!--<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-light_green.min.css">-->
      <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-green.min.css">
-     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+     
+
+     <!--Custom CSS-->
+     <link rel="stylesheet" type="text/css" href="style.css">
 
      <!--Jquery-->
      <script src="app.js"></script>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
-    <!--Custom CSS-->
-     <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 
@@ -43,15 +47,19 @@
       <!-- Navigation -->
       <nav class="mdl-navigation">
         <ul>
-          <li class="one"><a href="#/WhatWeDo">what we do</a></li><!--
-        --><li class="two"><a href="#/WhoWeAre">who we are</a></li><!--
-        --><li class="three"><a href="#/HowWeThink">how we think</a></li><!--
-        --><li class="four"><a href="#/LetsTalk">let's talk</a></li>
+          <li class="one"><a href="#/WhatWeDo">what we do</a></li>
+          <li class="two"><a href="#/WhoWeAre">who we are</a></li>
+          <li class="three"><a href="#/HowWeThink">how we think</a></li>
+          <li class="four"><a href="#/LetsTalk">let's talk</a></li>
           <hr />
         </ul>
       </nav>
     </div>
   </header>
-  <main class="mdl-layout__content">
-  </main>
+
+   <!--Partial HTML Page Content-->
+   <div ng-view=""></div>
+
 </div>
+
+</html>

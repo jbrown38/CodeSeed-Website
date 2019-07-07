@@ -28,12 +28,14 @@ app.config(['$routeProvider', function($routeProvider) {
     controller: 'LetsTalkCtrl'
   });
   
-  $routeProvider.otherwise({redirecTo: '/'});
+  $routeProvider.otherwise({redirectTo: '/'});
+
 }]);
 
 
 app.controller('homeCtrl', ['$scope', function($scope){
-    $scope.message = 'welcome to home!';
+    $scope.message = '';
+    console.log('welcome to home');
 }]);
 
 app.controller('WhatWeDoCtrl', ['$scope', function($scope){
@@ -44,10 +46,11 @@ app.controller('WhoWeAreCtrl', ['$scope', function($scope){
     $scope.message = '';
 }]);
 
-app.controller('HowWeThinkCtrl', ['$scope', function($scope) {
+app.controller('HowWeThinkCtrl', ['$scope', function($scope){
     $scope.message = '';
 }]);
 
 app.controller('LetsTalkCtrl', ['$scope', function($scope){
-    $scope.message = '';
+    $scope.message = 'lets talk';
+    console.log('lets talk');
 }]);

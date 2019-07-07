@@ -1,11 +1,9 @@
 /*set background image*/
-.nav {
-    background: url('/resources/NotreDameAerial.jpg') center / cover;
-}
+/* body.home{
+    background:url(resources/NotreDameAerial.jpg);
+} */
 
-h1{
-    color: black;
-}
+
 .nav .mdl-layout__drawer-button{
     margin: 60px;
 }
