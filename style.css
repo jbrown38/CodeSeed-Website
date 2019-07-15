@@ -1,15 +1,35 @@
+/*fixes bug that results in some text not being able to be selected*/
+*{
+    z-index: 100;
+}
+
+
+
+/*grid alignment and styling*/
+.mdl-grid{
+    margin-left: 165px;
+    margin-top: 10px;
+}
+.mdl-grid h2{
+    color: #47886e;
+    font-weight: bold;
+}
+.mdl-grid h3{
+    color: #606060;
+}
+
+
 /*navbar styling and placement*/
 .nav .mdl-layout__drawer-button{
     margin: 60px;
 }
-
 .nav .mdl-layout__header {
     padding: 53px;
 }
-
 .nav li a{
     font-size: 20px;
 }
+
 
 
 /*nav logo animation and styling*/
@@ -32,6 +52,7 @@
 }
 
 
+
 /*Navbar Animation*/
 .nav .container {
     width: 50%;
@@ -48,20 +69,49 @@
     text-decoration: none;
     color: white;
   }
+.nav .one:hover ~ hr {
+    opacity: 1.0;
+}
 .nav .two:hover ~ hr {
     margin-left: 26%;
+    opacity: 1.0;
   }
 .nav .three:hover ~ hr {
     margin-left: 53%;
+    opacity: 1.0;
   }
 .nav .four:hover ~ hr {
     margin-left: 78%;
+    opacity: 1.0;
   }
 .nav hr {
     height: .25rem;
     width: 25%;
     margin: 0;
     background: #63b593;
+    opacity: 0;
     border: none;
     transition: .3s ease-in-out;
   }
+
+
+
+/*Footer Styling*/
+footer h1 {
+    color: #606060;
+    font-size: 18px;
+    padding: 0px;
+}
+footer ul {
+    list-style: none;
+    padding: 0px;
+    line-height: 30px
+}
+footer a {
+    text-decoration: none;
+    color: darkgrey;
+    font-size: 16px;
+}
+footer a:hover{
+    color: #47886e;
+}
