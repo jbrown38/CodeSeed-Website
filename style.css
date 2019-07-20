@@ -3,7 +3,45 @@
     z-index: 100;
 }
 
-
+/*Square card*/
+.demo-card-square.mdl-card {
+  width: 270px;
+  height: 300px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background: url('resources/generic.png') center;
+  background-size: 125%;
+  background-repeat: no-repeat;
+}
+.card-overlay{
+    background: white;
+    background-repeat: no-repeat;
+    height:300px;
+    width: 270px;
+    opacity: 0;
+    margin: -15px;
+    vertical-align: text-bottom;
+}
+.card-overlay:hover{
+    background: white;
+    background-repeat: no-repeat;
+    height:300px;
+    width: 270px;
+    opacity: 0.8;
+    margin: -15px;
+    transition: 0.3s;
+}
+.demo-card-square a{
+    color: #606060;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card-name{
+    font-size: 24px;
+}
 
 /*grid alignment and styling*/
 .mdl-grid{
