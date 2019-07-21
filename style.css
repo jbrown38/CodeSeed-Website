@@ -3,7 +3,49 @@
     z-index: 100;
 }
 
-
+/*join us cards*/
+.students-card > .mdl-card__supporting-text h2{
+    color: #606060;
+    font-size: 22px;
+    margin-top: -20px;
+    margin: 0px;
+    background: white;
+}
+.students-card.mdl-card {
+    width: 512px;
+}
+.students-card > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('resources/NotreDameStudents.png') center / cover;
+}
+.students-card > .mdl-card__menu {
+    color: #fff;
+}
+.students-card a{
+    color: #47886e;
+}
+.companies-card > .mdl-card__supporting-text h2{
+    color: #606060;
+    font-size: 22px;
+    margin-top: -20px;
+    margin: 0px;
+    background: white;
+}
+.companies-card.mdl-card {
+    width: 512px;
+}
+.companies-card > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('resources/NotreDameCareerFair.jpg') center / cover;
+}
+.companies-card > .mdl-card__menu {
+    color: #fff;
+}
+.companies-card a{
+    color: #47886e;
+}
 
 
 /*leadership styling*/
