@@ -3,6 +3,31 @@
     z-index: 100;
 }
 
+
+
+
+/*leadership styling*/
+.leadership{
+    margin-top: -35px;
+}
+.leadership h3{
+    color: #606060;
+}
+.leadership h4{
+    color: darkgrey;
+    font-size: 22px;
+    margin-top: -25px;
+}
+.leadership p{
+    color: #606060;
+    margin-top:-5px;
+    font-size:18px;
+}
+
+
+
+
+
 /*Square card*/
 .demo-card-square.mdl-card {
   width: 220px;
@@ -28,7 +53,7 @@
     background-repeat: no-repeat;
     height:240px;
     width: 220px;
-    opacity: 0.8;
+    opacity: 0.85;
     margin: -16px;
     transition: 0.3s;
 }
@@ -42,7 +67,14 @@
 .card-name{
     font-size: 24px;
 }
-/*Custom Images for team cards*/
+
+
+
+
+/*Custom Images for team cards + container styling*/
+.our-team-container{
+    background: whitesmoke;
+}
 .demo-card-square.VinceSipocz > .mdl-card__title {
     color: #fff;
     background: url('resources/headshots/VinceSipocz.jpeg') center no-repeat;
@@ -117,6 +149,8 @@
 }
 
 
+
+
 /*grid alignment and styling*/
 .mdl-grid{
     margin-left: 165px;
@@ -130,6 +164,11 @@
 .mdl-grid h3{
     color: #606060;
 }
+p{
+    color: #606060;
+    font-size:18px;
+}
+
 
 
 /*navbar styling and placement*/
@@ -142,6 +181,7 @@
 .nav li a{
     font-size: 20px;
 }
+
 
 
 
@@ -163,6 +203,7 @@
 .nav span a:hover .Color{
     display: inline;
 }
+
 
 
 
@@ -206,6 +247,7 @@
     border: none;
     transition: .3s ease-in-out;
   }
+
 
 
 
