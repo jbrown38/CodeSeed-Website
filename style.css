@@ -5,31 +5,31 @@
 
 /*Square card*/
 .demo-card-square.mdl-card {
-  width: 270px;
-  height: 300px;
+  width: 220px;
+  height: 240px;
 }
 .demo-card-square > .mdl-card__title {
   color: #fff;
-  background: url('resources/generic.png') center;
-  background-size: 125%;
+  background: url('resources/headshots/generic.png') center no-repeat;
+  background-size: 115%;
   background-repeat: no-repeat;
 }
 .card-overlay{
     background: white;
     background-repeat: no-repeat;
-    height:300px;
-    width: 270px;
+    height:240px;
+    width: 220px;
     opacity: 0;
-    margin: -15px;
+    margin: -16px;
     vertical-align: text-bottom;
 }
 .card-overlay:hover{
     background: white;
     background-repeat: no-repeat;
-    height:300px;
-    width: 270px;
+    height:240px;
+    width: 220px;
     opacity: 0.8;
-    margin: -15px;
+    margin: -16px;
     transition: 0.3s;
 }
 .demo-card-square a{
@@ -42,11 +42,86 @@
 .card-name{
     font-size: 24px;
 }
+/*Custom Images for team cards*/
+.demo-card-square.VinceSipocz > .mdl-card__title {
+    color: #fff;
+    background: url('resources/headshots/VinceSipocz.jpeg') center no-repeat;
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.demo-card-square.ShaneEarley > .mdl-card__title {
+    color: #fff;
+    background: url('resources/headshots/ShaneEarley.png') center no-repeat;
+    background-size: 105%;
+    background-repeat: no-repeat;
+}
+.demo-card-square.AJJohnson > .mdl-card__title {
+    color: #fff;
+    background: url('resources/headshots/generic.png') center no-repeat;
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.demo-card-square.AndrewGlickert > .mdl-card__title {
+    color: #fff;
+    background: url('resources/headshots/AndrewGlickert.jpeg') center no-repeat;
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.demo-card-square.ChrisHunt > .mdl-card__title {
+    color: #fff;
+    background: url('resources/headshots/ChrisHunt.jpeg') center no-repeat;
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.demo-card-square.ConorMurphy > .mdl-card__title {
+    color: #fff;
+    background: url('resources/headshots/generic.png') center no-repeat;
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.demo-card-square.GavinJakubik > .mdl-card__title {
+    color: #fff;
+    background: url('resources/headshots/generic.png') center no-repeat;
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.demo-card-square.GrahamFisher > .mdl-card__title {
+    color: #fff;
+    background: url('resources/headshots/generic.png') center no-repeat;
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.demo-card-square.JackMasciopinto > .mdl-card__title {
+    color: #fff;
+    background: url('resources/headshots/JackMasciopinto.jpeg') center no-repeat;
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.demo-card-square.JakeFeehery > .mdl-card__title {
+    color: #fff;
+    background: url('resources/headshots/generic.png') center no-repeat;
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.demo-card-square.JasonBrown > .mdl-card__title {
+    color: #fff;
+    background: url('resources/headshots/generic.png') center no-repeat;
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.demo-card-square.MichaelLee > .mdl-card__title {
+    color: #fff;
+    background: url('resources/headshots/MichaelLee.jpeg') center no-repeat;
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+
 
 /*grid alignment and styling*/
 .mdl-grid{
     margin-left: 165px;
     margin-top: 10px;
+    margin-right: 165px;
 }
 .mdl-grid h2{
     color: #47886e;
