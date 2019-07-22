@@ -125,7 +125,7 @@
 }
 .demo-card-square.ShaneEarley > .mdl-card__title {
     color: #fff;
-    background: url('resources/headshots/ShaneEarley.png') center no-repeat;
+    background: url('resources/headshots/ShaneEarley.jpeg') center no-repeat;
     background-size: 105%;
     background-repeat: no-repeat;
 }
@@ -155,7 +155,7 @@
 }
 .demo-card-square.GavinJakubik > .mdl-card__title {
     color: #fff;
-    background: url('resources/headshots/generic.png') center no-repeat;
+    background: url('resources/headshots/GavinJakubik.jpeg') center no-repeat;
     background-size: 110%;
     background-repeat: no-repeat;
 }
