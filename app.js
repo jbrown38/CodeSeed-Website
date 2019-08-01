@@ -35,7 +35,6 @@ app.config(['$routeProvider', function($routeProvider) {
 
 app.controller('homeCtrl', ['$scope', function($scope){
     $scope.message = '';
-    console.log('welcome to home');
 }]);
 
 app.controller('WhatWeDoCtrl', ['$scope', function($scope){
@@ -52,5 +51,4 @@ app.controller('HowWeThinkCtrl', ['$scope', function($scope){
 
 app.controller('LetsTalkCtrl', ['$scope', function($scope){
     $scope.message = 'lets talk';
-    console.log('lets talk');
 }]);

@@ -3,6 +3,93 @@
     z-index: 100;
 }
 
+
+
+
+
+/*custom button*/
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: white; 
+    color: #47886e; 
+    border: 2px solid #47886e;
+    font-size: 20px;
+  }
+  
+  .button1:hover {
+    background-color: #47886e;
+    color: white;
+  }
+  .button2 {
+    background-color: whitesmoke; 
+    color: #47886e; 
+    border: 2px solid #47886e;
+    font-size: 20px;
+  }
+  .button2:hover {
+    background-color: #47886e;
+    color: whitesmoke;
+  }
+  .button3 {
+    background-color: gainsboro; 
+    color: #47886e; 
+    border: 2px solid #47886e;
+    font-size: 20px;
+  }
+  .button3:hover {
+    background-color: #47886e;
+    color: gainsboro;
+  }
+
+
+
+
+
+/* containers */
+.section-container-1{
+    background: whitesmoke;
+    margin-top: -20px;
+}
+.section-container-2{
+    background: gainsboro;
+    margin-top: -20px;
+}
+.what-we-do-container{
+    margin-top: 20px;
+    margin-left: 160px;
+    margin-right: 80px;
+    margin-bottom: 60px;
+}
+.who-we-are-container img{
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.how-we-think-container{
+    margin-bottom: 100px;
+}
+.how-we-think-container img{
+    margin-top: 35px;
+    margin-bottom: 30px;
+
+}
+
+
+
+
+
 /*join us cards*/
 .students-card > .mdl-card__supporting-text h2{
     color: #606060;
@@ -46,6 +133,8 @@
 .companies-card a{
     color: #47886e;
 }
+
+
 
 
 /*leadership styling*/
@@ -113,10 +202,8 @@
 
 
 
-/*Custom Images for team cards + container styling*/
-.our-team-container{
-    background: whitesmoke;
-}
+
+/*Custom Images for team cards + */
 .demo-card-square.VinceSipocz > .mdl-card__title {
     color: #fff;
     background: url('resources/headshots/VinceSipocz.jpeg') center no-repeat;
@@ -193,6 +280,7 @@
 
 
 
+
 /*grid alignment and styling*/
 .mdl-grid{
     margin-left: 165px;
@@ -205,11 +293,22 @@
 }
 .mdl-grid h3{
     color: #606060;
+    line-height: 42px;
+}
+.mdl-grid h6{
+    color: #606060;
+    font-size:56px;
+}
+.mdl-grid h5{
+    color: #47886e;
+    font-size: 26px;
 }
 p{
     color: #606060;
     font-size:18px;
 }
+
+
 
 
 
@@ -223,6 +322,7 @@ p{
 .nav li a{
     font-size: 20px;
 }
+
 
 
 
@@ -245,6 +345,7 @@ p{
 .nav span a:hover .Color{
     display: inline;
 }
+
 
 
 
@@ -293,7 +394,12 @@ p{
 
 
 
+
+
 /*Footer Styling*/
+footer hr{
+    margin-top: 100px;
+}
 footer h1 {
     color: #606060;
     font-size: 18px;
@@ -302,7 +408,7 @@ footer h1 {
 footer ul {
     list-style: none;
     padding: 0px;
-    line-height: 30px
+    line-height: 30px;
 }
 footer a {
     text-decoration: none;
