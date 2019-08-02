@@ -9,7 +9,7 @@
 
 /*custom button*/
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #47886e; /* Green */
     border: none;
     color: white;
     padding: 16px 32px;
@@ -67,26 +67,49 @@
     background: gainsboro;
     margin-top: -20px;
 }
-.what-we-do-container{
-    margin-top: 20px;
-    margin-left: 160px;
-    margin-right: 80px;
-    margin-bottom: 60px;
-}
-.who-we-are-container img{
-    margin-top: 35px;
-    margin-bottom: 30px;
-}
 .how-we-think-container{
     margin-bottom: 100px;
 }
-.how-we-think-container img{
-    margin-top: 35px;
-    margin-bottom: 30px;
-
+@media screen and (min-width: 501px) {
+    .how-we-think-container img{
+        margin-top: 35px;
+        margin-bottom: 30px; 
+        height: 350px;
+        width: 450px;
+    }
+    .who-we-are-container img{
+        margin-top: 35px;
+        margin-bottom: 30px;
+        height: 420px;
+        width: 350px;
+    }
+    .what-we-do-container{
+        margin-top: 20px;
+        margin-left: 15%;
+        margin-right: 10%;
+        margin-bottom: 60px;
+    }
 }
-
-
+@media screen and (max-width: 500px) {
+    .how-we-think-container img{
+        margin-top: 35px;
+        margin-bottom: 30px; 
+        height: auto;
+        width: 95%;
+    }
+    .who-we-are-container img{
+        margin-top: 35px;
+        margin-bottom: 30px;
+        height: auto;
+        width: 80%;
+    }
+    .what-we-do-container{
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 10%;
+        margin-bottom: 60px;
+    }
+}
 
 
 
@@ -98,8 +121,21 @@
     margin: 0px;
     background: white;
 }
-.students-card.mdl-card {
-    width: 512px;
+@media screen and (min-width: 650px) {
+    .students-card.mdl-card {
+        width: 512px;
+    }
+    .companies-card.mdl-card {
+        width: 512px;
+    }
+}
+@media screen and (max-width: 649px) {
+    .students-card.mdl-card {
+        width: 100%;
+    }
+    .companies-card.mdl-card {
+        width: 100%;
+    }
 }
 .students-card > .mdl-card__title {
     color: #fff;
@@ -118,9 +154,6 @@
     margin-top: -20px;
     margin: 0px;
     background: white;
-}
-.companies-card.mdl-card {
-    width: 512px;
 }
 .companies-card > .mdl-card__title {
     color: #fff;
@@ -283,9 +316,9 @@
 
 /*grid alignment and styling*/
 .mdl-grid{
-    margin-left: 165px;
+    margin-left: 10%;
     margin-top: 10px;
-    margin-right: 165px;
+    margin-right: 10%;
 }
 .mdl-grid h2{
     color: #47886e;
@@ -298,6 +331,7 @@
 .mdl-grid h6{
     color: #606060;
     font-size:56px;
+    line-height: 65px;
 }
 .mdl-grid h5{
     color: #47886e;
@@ -314,7 +348,7 @@ p{
 
 /*navbar styling and placement*/
 .nav .mdl-layout__drawer-button{
-    margin: 60px;
+    margin: 10%;
 }
 .nav .mdl-layout__header {
     padding: 53px;
