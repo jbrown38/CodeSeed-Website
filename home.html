@@ -10,14 +10,25 @@
 }
 
 .image h1{
-    /* margin: 115px; */
     margin:auto;
-    padding-top: 300px;
-    margin-left: 165px;
+    margin-left: 12%;
     color: white;
-    font-size: 100px;
     font-weight: bold;
     
+}
+
+@media screen and (min-width: 518px) {
+    .image h1{
+        font-size: 100px;
+        padding-top: 300px;
+    }
+}
+
+@media screen and (max-width: 517px) {
+    .image h1{
+        font-size: 75px;
+        padding-top: 120px;
+    }
 }
 
 </style>
@@ -61,7 +72,7 @@
                 <a href="#/WhoWeAre"><button class="button button3">Get to know us</button></a>
             </div>
             <div class = "mdl-cell mdl-cell--4-col">
-                <img height="420" width="350" src="resources/TouchdownJesus.jpg" alt="TouchdownJesus.jpg">
+                <img src="resources/TouchdownJesus.jpg" alt="TouchdownJesus.jpg">
             </div>
         </div>
     </div>
@@ -72,7 +83,7 @@
     <div class="how-we-think-container">
         <div class="mdl-grid">
             <div class = "mdl-cell mdl-cell--5-col">
-                    <img height="350" width="450" src="resources/TheGrotto.jpg" alt="TouchdownJesus.jpg">
+                    <img src="resources/TheGrotto.jpg" alt="TouchdownJesus.jpg">
             </div>
             <div class = "mdl-cell mdl-cell--1-col"></div>
             <div class = "mdl-cell mdl-cell--6-col">
@@ -88,13 +99,16 @@
 
 <!--let's talk-->
 <div class="mdl-grid">
-        <div class = "mdl-cell mdl-cell--9-col">
-            <h6>It's time to get stuff done.</h6>
-            <p><br></p>
+        <div class = "mdl-cell mdl-cell--8-col">
+            <h6>We're already working.</h6>
+        </div>
+        <div class = "mdl-cell mdl-cell--4-col"></div>
+</div>
+<div class="mdl-grid">
+        <div class = "mdl-cell mdl-cell--8-col">
             <h6>Ready?</h6>
         </div>
-        <div class = "mdl-cell mdl-cell--3-col">
-            <p><br></p>
+        <div class = "mdl-cell mdl-cell--4-col">
             <a href="#/LetsTalk"><button class="button button1">Let's talk</button></a>
         </div>
 </div>
