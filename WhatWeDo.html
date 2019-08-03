@@ -1,10 +1,9 @@
 <style>
 .image{
-    background: url("resources/GoldenGateNight.jpg") center;
-    background-size: cover;
+    background: url("resources/GoldenGateNight.jpg");
+    /* background-size: 1440px 430px; */
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 430px;
     margin-top: -20px;
 }
 
@@ -23,12 +22,30 @@
         font-size: 100px;
         padding-top: 300px;
     }
+    .image{
+        height: 100%;
+    }
 }
 
 @media screen and (max-width: 517px) {
     .image h1{
         font-size: 75px;
         padding-top: 120px;
+    }
+    .image{
+        height: 430px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .image{
+        background-size: 100% 60%;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .image{
+        background-size: 1440px 430px;
     }
 }
 </style>
